@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/charles Quote.jpg">
+    <title>Images</title>
+    <link rel="stylessheet" href="style.css">
+    <style>
+
+        .image-container {
+            display: flex;
+            border: 1px solid black;
+            border-width: 3px;
+            margin: 2px;
+            box-sizing: inherit;
+        }
+    
+        .image-container .image {
+            flex-grow: 1;
+            flex-basis: 0;
+            max-width: 200px;
+            border: 1px solid black;
+            padding: 2px;
+            box-sizing: inherit;
+        }
+    
+        img {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            padding-right: 2px;
+        }
+
+        .image-container .image:last-child {
+            display: flex;
+            border-right: none;
+        }
+    </style>
+    </head>
+
+<body>
+    <header>
+        <h1 style="background-color: beige;">Image Catlouge</span></h1>
+        <a href="Index.html">HOME</a>
+        <a href="ABOUT US.html">ABOUT US</a>
+        <a href="IMAGES.html">IMAGES</a>
+        <hr>
+        <br>
+
+    </header>
+    <img src="Images/Charles Quote 2.png" height="200px">
+    <a href="www.google.com"
+    target="_blank"></a>
+    <br>
+    <h1> Here are some cool images </h1>
+    <p > The first image talks about <b><u>failure one must always not think failure is the end</b></u></p>
+    <p>the second image talks about <b><u>Balance in life</b></u></p>
+    <p>the third immages talks about been <b><u>kind to yourself which is essential for peace and a working mind</b></u></p>
+    <p>the fourth images talks about <b><u> the full meaning of a team in an inspirational way.</b></u></p>
+
+<div class="image-container">
+    <div class="image" >
+        <img src="Images/Quotes 1.jpg" alt="Image 1">
+    </div>
+    <div class="image">
+        <img src="Images/Quotes 2.jpg" alt="Image 2">
+    </div>
+</div>
+<div class="image-container">
+    <div class="image">
+        <img src="Images/Quotes 3.jpg" alt="Image 3">
+    </div>
+    <div class="image">
+        <img src="Images/Quotes 4.jpg" alt="image 4">
+    </div>
+</div>
+</body>
+
+</html>
